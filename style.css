@@ -1,0 +1,130 @@
+ *{ 
+Margin:0%;
+Padding:0%;
+Box-sizing: border-box;
+text-transform: uppercase;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left{
+    width: 48%;
+    height: 98%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+.msg{
+    display: flex;
+    flex-wrap: wrap;
+    height: 65%;
+    border-radius: 30px;
+    background-color: rgb(183, 228, 225);
+}.msg h1{
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    font-size: 5vw
+}
+.msg p{
+    margin-left: 1.5vw;
+    text-transform: none;
+    margin-right: 5vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+}
+.man{
+    width: 49%;
+    height: 33%;
+    border-radius: 30px;
+    background-image: url(/man.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    padding-bottom: .5vw;
+}
+.man h2{
+    font-size: 2vw;
+    color: white;
+}
+.right{
+    width: 48%;
+    height: 98%;
+    background-position: calc(0% - 100%);
+    background-image: url(/fas.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cursor{
+    background-color: transparent;
+    border: 3px white solid;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+    letter-spacing: .2vw;
+    cursor: pointer;
+    transition: .1s ease;
+    position: absolute;
+}
+.button{
+    height: 2vw;
+    width: 2vw;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    color: white;
+    border-radius: 50%;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all ease .3s;
+    right: 5%;
+}
+.button i{
+    display: inline-block;
+    font-size: 1vw;
+    color: black;
+}
+.button p{
+    display: none;
+}
+.button:hover{
+    border-radius: 10vw;
+    width: 10vw;
+    background-color: transparent;
+    border: 2px white solid;
+}
+.button:hover p{
+    display: inline-block;
+}
+.button:hover i{
+    display: none;
+}

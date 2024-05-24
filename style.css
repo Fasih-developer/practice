@@ -29,19 +29,20 @@ body{
     height: 98%;
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap
 }
 .msg{
     display: flex;
     flex-wrap: wrap;
-    height: 65%;
+    height: 63%;
     border-radius: 30px;
     background-color: rgb(183, 228, 225);
 }.msg h1{
     margin-left: 1.5vw;
+    margin-right: 7.5vw;
     margin-top: 1vw;
-    font-size: 5vw
+    font-size: 4vw
 }
 .msg p{
     margin-left: 1.5vw;
